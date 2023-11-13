@@ -271,13 +271,30 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 .logpage .loginsec1 {
-    padding: 4rem;
+    padding: 3.5rem;
     border-radius: 16px;
     width: 35rem;
+    margin: 4rem;
 }
+
+/* media quary  */
+@media (max-width: 800px) {
+    .logpage .loginsec1 {
+        padding: 2rem;
+        margin: 2rem;
+    }
+}
+
+/* media quary  */
+@media (max-width: 600px) {
+    .logpage .loginsec1 {
+        padding: .8rem;
+        margin: 1rem;
+    }
+}
+
 .logpage .loginsec1 .loginhead{
     padding-bottom: 1rem;
     text-align: center;
